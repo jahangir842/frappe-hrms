@@ -92,6 +92,7 @@ Use the following credentials to log in:
 
 ### Local
 
+0. Disable Anaconda Environment.
 1. Set up bench by following the [Installation Steps](https://frappeframework.com/docs/user/en/installation) and start the server and keep it running
 	```sh
 	$ bench start
