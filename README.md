@@ -96,15 +96,15 @@ Use the following credentials to log in:
 1. Set up bench by following the [Installation Steps](https://frappeframework.com/docs/user/en/installation) and start the server and keep it running
 	```sh
  	cd ~/frappe/my-bench
-	$ bench start
+	bench start
 	```
 2. In a separate terminal window, run the following commands
 	```sh
-	$ bench new-site hrms.localhost
-	$ bench get-app erpnext
-	$ bench get-app hrms
-	$ bench --site hrms.localhost install-app hrms
-	$ bench --site hrms.localhost add-to-hosts
+	bench new-site hrms.localhost
+	bench get-app erpnext
+	bench get-app hrms
+	bench --site hrms.localhost install-app hrms
+	bench --site hrms.localhost add-to-hosts
 	```
 3. You can access the site at `http://hrms.localhost:8080`
 
