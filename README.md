@@ -100,6 +100,7 @@ Use the following credentials to log in:
 	```
 2. In a separate terminal window, run the following commands
 	```sh
+ 	cd ~/frappe/my-bench
 	bench new-site hrms.localhost
 	bench get-app erpnext
 	bench get-app hrms
@@ -107,6 +108,11 @@ Use the following credentials to log in:
 	bench --site hrms.localhost add-to-hosts
 	```
 3. You can access the site at `http://hrms.localhost:8000`
+
+   Use the following credentials to log in:
+
+- Username: `Administrator` or `jahangir80842@gmail.com`
+- Password: `root`
 
 ## Learning and Community
 
