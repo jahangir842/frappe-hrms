@@ -106,7 +106,7 @@ Use the following credentials to log in:
 	bench --site hrms.localhost install-app hrms
 	bench --site hrms.localhost add-to-hosts
 	```
-3. You can access the site at `http://hrms.localhost:8080`
+3. You can access the site at `http://hrms.localhost:8000`
 
 ## Learning and Community
 
